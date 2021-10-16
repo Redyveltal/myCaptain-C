@@ -15,11 +15,11 @@ main()
 	}
 	else if(a>55)
 	{
-     	printf("You have obtained Grade C");
+     	        printf("You have obtained Grade C");
 	}
 	else if(a>40)
 	{
-     	printf("You have obtained Grade D");
+     	        printf("You have obtained Grade D");
 	}
 	else
 	{
