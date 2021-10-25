@@ -6,6 +6,9 @@ int main()
 	int i = 0;
 	int j = 0;
 	int sum = 0;
+	
+	//Entering values for the matrix
+	
 	printf("Enter 9 elements for the matrix \n------------------------------------- \n");
 	for (i = 0; i<3; i++)
 	{
@@ -15,6 +18,9 @@ int main()
 		}
 	}
 	printf("The matrix given is : \n------------------------------------- \n");
+	
+	//Displaying the obtained matrix
+	
 	for (i = 0; i<3 ; i++)
 	{
 		for (j = 0; j< 3; j++)
@@ -23,6 +29,9 @@ int main()
 		}
 		printf("\n");
 	}
+	
+	//Finding the sum of the diagonal elements where i = j
+	
 	for (i=0; i < 3; i++)
 	{
 		for (j = 0; j<3; j++)
